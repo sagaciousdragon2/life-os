@@ -11,7 +11,7 @@ A completely offline-first personal reflection and journaling tool. Built with F
 
 ---
 
-## 🚀 Setup Instructions
+##  Setup Instructions
 
 ### 1. Backend (Python + FastAPI + Ollama)
 
@@ -59,11 +59,3 @@ flutter run -d windows
 # or flutter run (for mobile emulator)
 ```
 
-## Architecture Notes
-- **State Management**: Riverpod (`hooks_riverpod` compatible).
-- **Communication**: Frontend talks to `http://localhost:8000/analyze` via REST.
-- **Database**: `sqflite_common_ffi` is initialized on desktop platforms to ensure SQLite works outside of mobile.
-- **AI Processing**: Ollama's new `format: "json"` ensures structured responses so the client app doesn't break parsing string outputs.
-
-## Customization
-To change the AI personality or output schema, modify the `SYSTEM_PROMPT` inside `backend/analyze.py`.
