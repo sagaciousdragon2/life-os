@@ -1,6 +1,6 @@
 # Daily Life OS
 
-A completely private, offline-first personal reflection and journaling tool. Built with Flutter for cross-platform support (Android, iOS, Windows, macOS) and a local FastAPI backend powered by Ollama for AI insights.
+A completely offline-first personal reflection and journaling tool. Built with Flutter for cross-platform support (Android, iOS, Windows, macOS) and a local FastAPI backend powered by Ollama for AI insights.
 
 ## Features
 - **Fast Logging**: Quickly log mood, focus, sleep, and tasks.
